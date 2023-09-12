@@ -15,7 +15,7 @@ public class Gerente extends Empregado {
             secretario.aumentarSalario(percentual); 
         } 
         for (Tecnico tecnico: tecnicos) { 
-            tecnico.aumentarSalario(percentual) 
+            tecnico.aumentarSalario(percentual); 
         } 
  
         public void addTecnico(Tecnico tecnico) { 
@@ -25,7 +25,7 @@ public class Gerente extends Empregado {
  
     @Override 
     public void imprimirPaper() { // Polimorfismo 
-        System.out.printl("Eu sou gerente e tenho %s como secretário(a) e mais %d técnicos(as) sob meu comando.", this.secretario.getNome(), this.tecnicos.size()); 
+        System.out.println(); 
     } 
 } 
 
